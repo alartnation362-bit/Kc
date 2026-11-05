@@ -1,0 +1,6 @@
+{
+  "name": "VaultStake Protocol",
+  "description": "Institutional Multi-Chain Cryptocurrency Staking Platform with Real-Time Yields, Secure Asset Management, and Automated Transaction Notifications",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

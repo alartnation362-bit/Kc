@@ -1,0 +1,488 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_001",
+      "email": "admin@vaultstake.io",
+      "password": "AdminVault2026!",
+      "name": "Elena Rostova (Chief Security Officer)",
+      "role": "admin",
+      "createdAt": "2026-01-10T08:00:00Z",
+      "walletBalances": {
+        "BTC": 0.1,
+        "ETH": 2,
+        "SOL": 50,
+        "USDT": 5000,
+        "USDC": 5000,
+        "BNB": 10,
+        "AVAX": 100
+      },
+      "referralCode": "VAULT-ELEN-5765"
+    },
+    {
+      "id": "usr_staker_002",
+      "email": "alex.morgan@crypto.org",
+      "password": "Staker2026!",
+      "name": "Alex Morgan",
+      "role": "user",
+      "createdAt": "2026-02-01T12:00:00Z",
+      "walletBalances": {
+        "BTC": 0.35,
+        "ETH": 3.2,
+        "SOL": 45,
+        "USDT": 5193.44,
+        "USDC": 2800,
+        "BNB": 8.5,
+        "AVAX": 80
+      },
+      "referralCode": "VAULT-ALEX-2358",
+      "referralClaimableUsd": 0
+    },
+    {
+      "id": "usr_qu8awkl",
+      "email": "marcus.vance@cryptofund.io",
+      "password": "SecurePassword2026!",
+      "name": "Marcus Vance",
+      "role": "user",
+      "createdAt": "2026-11-04T19:18:19.222Z",
+      "walletBalances": {
+        "BTC": 0,
+        "ETH": 0,
+        "SOL": 0,
+        "USDT": 0,
+        "USDC": 0,
+        "BNB": 0,
+        "AVAX": 0
+      },
+      "referralCode": "VAULT-MARC-3088"
+    },
+    {
+      "id": "usr_nxn1rax",
+      "email": "staker_1793820925425@protonmail.com",
+      "password": "MySecurePassword2026",
+      "name": "Elena Crypto",
+      "role": "user",
+      "createdAt": "2026-11-04T19:35:25.693Z",
+      "walletBalances": {
+        "BTC": 0,
+        "ETH": 0,
+        "SOL": 0,
+        "USDT": 0,
+        "USDC": 0,
+        "BNB": 0,
+        "AVAX": 0
+      },
+      "referralCode": "VAULT-ELEN-3583"
+    },
+    {
+      "id": "usr_474xufn",
+      "email": "alartnation362@gmail.com",
+      "password": "SSO_xxjlj5m5tre",
+      "name": "Google Staker",
+      "role": "user",
+      "createdAt": "2026-11-05T10:55:36.959Z",
+      "referralCode": "VAULT-GOOG-3000",
+      "walletBalances": {
+        "BTC": 0.15,
+        "ETH": 1.5,
+        "SOL": 25,
+        "USDT": 2500,
+        "USDC": 2000,
+        "BNB": 5,
+        "AVAX": 50
+      }
+    },
+    {
+      "id": "usr_5g99hii",
+      "email": "icloud.investor@icloud.com",
+      "password": "SSO_avmmw6xm99v",
+      "name": "Apple iCloud Investor",
+      "role": "user",
+      "createdAt": "2026-11-05T10:55:43.820Z",
+      "referralCode": "VAULT-APPL-4156",
+      "walletBalances": {
+        "BTC": 0.15,
+        "ETH": 1.5,
+        "SOL": 25,
+        "USDT": 2500,
+        "USDC": 2000,
+        "BNB": 5,
+        "AVAX": 50
+      }
+    }
+  ],
+  "depositAddresses": {
+    "BTC": {
+      "assetId": "BTC",
+      "chainName": "Bitcoin Network",
+      "networkType": "Native SegWit (Bech32)",
+      "address": "bc1q8s97wf64u249t0e7e72zpxz588xsv2y8c4zlm0",
+      "confirmationsRequired": 2,
+      "notes": "Send only BTC to this SegWit address. Minimum deposit is 0.001 BTC."
+    },
+    "ETH": {
+      "assetId": "ETH",
+      "chainName": "Ethereum Mainnet",
+      "networkType": "ERC-20",
+      "address": "0x71C8A3926B97C29b552b86F0d7Eb82136979A27D",
+      "confirmationsRequired": 12,
+      "notes": "Send only ETH or standard ERC-20 assets to this address. Minimum deposit is 0.01 ETH."
+    },
+    "SOL": {
+      "assetId": "SOL",
+      "chainName": "Solana Mainnet",
+      "networkType": "Solana SPL",
+      "address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "confirmationsRequired": 32,
+      "notes": "Send only SOL to this address. Fast confirmation within 30 seconds."
+    },
+    "USDT": {
+      "assetId": "USDT",
+      "chainName": "Tether Multi-Network",
+      "networkType": "TRC-20 / ERC-20",
+      "address": "0x71C8A3926B97C29b552b86F0d7Eb82136979A27D",
+      "confirmationsRequired": 12,
+      "notes": "Supports USDT on ERC-20 and BSC networks. Minimum deposit is 50 USDT."
+    },
+    "USDC": {
+      "assetId": "USDC",
+      "chainName": "USD Coin Network",
+      "networkType": "ERC-20",
+      "address": "0x71C8A3926B97C29b552b86F0d7Eb82136979A27D",
+      "confirmationsRequired": 12,
+      "notes": "Institutional Circle USDC deposit vault."
+    },
+    "BNB": {
+      "assetId": "BNB",
+      "chainName": "BNB Smart Chain",
+      "networkType": "BEP-20",
+      "address": "0x71C8A3926B97C29b552b86F0d7Eb82136979A27D",
+      "confirmationsRequired": 15,
+      "notes": "Send only BNB (BEP-20) to this BSC address."
+    },
+    "AVAX": {
+      "assetId": "AVAX",
+      "chainName": "Avalanche C-Chain",
+      "networkType": "C-Chain Contract",
+      "address": "0x71C8A3926B97C29b552b86F0d7Eb82136979A27D",
+      "confirmationsRequired": 10,
+      "notes": "Avalanche C-Chain deposit address."
+    }
+  },
+  "stakingPlans": [
+    {
+      "id": "plan_flexible",
+      "name": "Flexible Starter",
+      "tagline": "Earn 1.0% daily returns with continuous block yield - unstake anytime",
+      "lockPeriodDays": 0,
+      "apy": 365,
+      "minStakeUsd": 50,
+      "maxStakeUsd": 1000000,
+      "features": [
+        "1% daily return credited to balance",
+        "Unstake anytime with zero penalty",
+        "Daily compound rewards",
+        "Institutional multi-chain protection"
+      ],
+      "dailyReturnPercent": 1
+    },
+    {
+      "id": "plan_30d",
+      "name": "Flexible Prime",
+      "tagline": "Earn 1.5% daily returns with boosted yield multiplier - withdraw principal anytime",
+      "lockPeriodDays": 0,
+      "apy": 547.5,
+      "minStakeUsd": 100,
+      "maxStakeUsd": 500000,
+      "features": [
+        "1.5% daily return credited to balance",
+        "Fixed 30-day lock duration",
+        "Higher yield multiplier",
+        "Auto-claim or reinvest option"
+      ],
+      "isPopular": true,
+      "dailyReturnPercent": 1.5
+    },
+    {
+      "id": "plan_90d",
+      "name": "Flexible Strategic",
+      "tagline": "Earn 2.2% daily returns with priority validator tier - 100% on-demand flexible redemption",
+      "lockPeriodDays": 0,
+      "apy": 803,
+      "minStakeUsd": 250,
+      "maxStakeUsd": 1000000,
+      "features": [
+        "2.2% daily return credited to balance",
+        "Fixed 90-day validator tier",
+        "Priority payout distribution",
+        "Institutional insurance backing"
+      ],
+      "dailyReturnPercent": 2.2
+    },
+    {
+      "id": "plan_180d",
+      "name": "Flexible High-Yield",
+      "tagline": "Earn 3.0% daily returns with institutional yield compounding - unrestricted instant unstaking",
+      "lockPeriodDays": 0,
+      "apy": 1095,
+      "minStakeUsd": 500,
+      "maxStakeUsd": 2500000,
+      "features": [
+        "3% daily return credited to balance",
+        "Maximized APY performance",
+        "Fortress cold-storage allocation",
+        "Dedicated support escort"
+      ],
+      "dailyReturnPercent": 3
+    },
+    {
+      "id": "plan_365d",
+      "name": "Flexible Institutional",
+      "tagline": "Earn 4.2% daily returns with premier protocol allocation - full flexible liquidity access",
+      "lockPeriodDays": 0,
+      "apy": 1533,
+      "minStakeUsd": 1000,
+      "maxStakeUsd": 10000000,
+      "features": [
+        "4.2% daily return credited to balance",
+        "Maximum available protocol APY",
+        "VIP concierge desk access",
+        "Custom tax & ledger auditing reports"
+      ],
+      "dailyReturnPercent": 4.2
+    }
+  ],
+  "stakes": [
+    {
+      "id": "stk_001",
+      "userId": "usr_staker_002",
+      "assetId": "ETH",
+      "planId": "plan_30d",
+      "planName": "Prime 30-Day",
+      "amount": 1.5,
+      "amountUsd": 5220.75,
+      "apy": 547.5,
+      "lockPeriodDays": 0,
+      "startDate": "2026-10-20T16:32:00.730Z",
+      "endDate": "2026-11-19T16:32:00.731Z",
+      "lastClaimDate": "2026-10-20T16:32:00.731Z",
+      "accruedRewards": 0.00489,
+      "status": "active",
+      "dailyReturnPercent": 1.5
+    },
+    {
+      "id": "stk_002",
+      "userId": "usr_staker_002",
+      "assetId": "SOL",
+      "planId": "plan_90d",
+      "planName": "Strategic 90-Day",
+      "amount": 20,
+      "amountUsd": 3975,
+      "apy": 803,
+      "lockPeriodDays": 0,
+      "startDate": "2026-09-24T16:32:00.731Z",
+      "endDate": "2026-12-23T16:32:00.731Z",
+      "lastClaimDate": "2026-10-24T16:32:00.731Z",
+      "accruedRewards": 0.0745,
+      "status": "active",
+      "dailyReturnPercent": 2.2
+    },
+    {
+      "id": "stk_003",
+      "userId": "usr_staker_002",
+      "assetId": "USDT",
+      "planId": "plan_flexible",
+      "planName": "Flexible Staking",
+      "amount": 2500,
+      "amountUsd": 2500,
+      "apy": 365,
+      "lockPeriodDays": 0,
+      "startDate": "2026-10-29T16:32:00.731Z",
+      "endDate": "2027-10-29T16:32:00.731Z",
+      "lastClaimDate": "2026-11-03T17:18:22.710Z",
+      "accruedRewards": 0,
+      "status": "active",
+      "dailyReturnPercent": 1
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_ref_q72azax",
+      "userId": "usr_staker_002",
+      "userEmail": "alex.morgan@crypto.org",
+      "type": "reward_claim",
+      "assetId": "USDT",
+      "amount": 866,
+      "amountUsd": 866,
+      "network": "USDT Liquid Wallet",
+      "status": "completed",
+      "createdAt": "2026-11-05T10:55:46.938Z",
+      "completedAt": "2026-11-05T10:55:46.938Z",
+      "notes": "Referral Partner Commission Harvested (+8% Staker Yield Match)"
+    },
+    {
+      "id": "tx_clm_rjr5083",
+      "userId": "usr_staker_002",
+      "userEmail": "alex.morgan@crypto.org",
+      "type": "reward_claim",
+      "assetId": "USDT",
+      "amount": 127.444971,
+      "amountUsd": 127.44,
+      "network": "TRC-20 / ERC-20",
+      "status": "completed",
+      "createdAt": "2026-11-03T17:18:22.710Z",
+      "completedAt": "2026-11-03T17:18:22.710Z",
+      "notes": "Claimed 127.444971 USDT staking yield rewards"
+    },
+    {
+      "id": "tx_dep_001",
+      "userId": "usr_staker_002",
+      "userEmail": "alex.morgan@crypto.org",
+      "type": "deposit",
+      "assetId": "ETH",
+      "amount": 4.7,
+      "amountUsd": 16358.35,
+      "network": "Ethereum ERC-20",
+      "txHash": "0x8f3c7e46ab912e75e3a0994fbc266f81c919d363b516a246835a6be47228a8d1",
+      "status": "approved",
+      "createdAt": "2026-10-19T16:32:00.731Z",
+      "completedAt": "2026-10-19T16:34:00.731Z",
+      "notes": "Initial Ethereum funding deposit",
+      "adminNote": "Confirmed on Etherscan block #21984210"
+    },
+    {
+      "id": "tx_dep_002",
+      "userId": "usr_staker_002",
+      "userEmail": "alex.morgan@crypto.org",
+      "type": "deposit",
+      "assetId": "SOL",
+      "amount": 65,
+      "amountUsd": 12918.75,
+      "network": "Solana SPL",
+      "txHash": "5K3dF9xL4g7Hw9N1kE8yZpB6sM3vX2qR7tA8uC4eG1wD6jK9mP2",
+      "status": "approved",
+      "createdAt": "2026-09-23T16:32:00.731Z",
+      "completedAt": "2026-09-23T16:32:45.731Z",
+      "notes": "Solana staking pool deposit",
+      "adminNote": "Confirmed on Solscan"
+    },
+    {
+      "id": "tx_dep_003",
+      "userId": "usr_staker_002",
+      "userEmail": "alex.morgan@crypto.org",
+      "type": "deposit",
+      "assetId": "BTC",
+      "amount": 0.15,
+      "amountUsd": 13867.5,
+      "network": "Bitcoin Native SegWit",
+      "txHash": "4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
+      "status": "pending",
+      "createdAt": "2026-11-03T15:57:00.731Z",
+      "notes": "Bitcoin SegWit deposit awaiting blockchain validation"
+    },
+    {
+      "id": "tx_wdr_001",
+      "userId": "usr_staker_002",
+      "userEmail": "alex.morgan@crypto.org",
+      "type": "withdrawal",
+      "assetId": "USDT",
+      "amount": 500,
+      "amountUsd": 500,
+      "network": "TRC-20",
+      "toAddress": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+      "status": "pending",
+      "createdAt": "2026-11-03T16:17:00.731Z",
+      "notes": "User requested withdrawal to external cold storage"
+    }
+  ],
+  "emails": [
+    {
+      "id": "eml_l2ljrku",
+      "userId": "usr_5g99hii",
+      "toEmail": "icloud.investor@icloud.com",
+      "subject": "Welcome to VaultStake Protocol via Apple iCloud",
+      "eventType": "security_alert",
+      "previewText": "Your institutional multi-chain custody vault is ready.",
+      "htmlContent": "\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #090d16; color: #f8fafc; padding: 32px 20px; border-radius: 12px; max-width: 580px; margin: 0 auto; border: 1px solid #1e293b;\">\n      <div style=\"display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #1e293b; padding-bottom: 16px; margin-bottom: 24px;\">\n        <div>\n          <span style=\"color: #f59e0b; font-weight: 800; font-size: 18px; letter-spacing: 0.05em;\">VAULTSTAKE PROTOCOL</span>\n          <div style=\"color: #64748b; font-size: 12px; margin-top: 2px;\">Automated Settlement & Security Dispatch</div>\n        </div>\n        <div style=\"font-size: 11px; background: #1e293b; color: #38bdf8; padding: 4px 10px; border-radius: 4px; font-weight: 600;\">ENCRYPTED ALERT</div>\n      </div>\n      <h2 style=\"font-size: 18px; color: #ffffff; margin: 0 0 12px;\">Welcome to VaultStake Protocol (Apple iCloud SSO)</h2>\n      <p style=\"font-size: 14px; color: #cbd5e1; line-height: 1.6; margin: 0 0 20px;\">Your institutional multi-chain account has been created and verified via Apple iCloud. Welcome liquidity balances have been provisioned to your address.</p>\n      \n      <div style=\"background: #0f172a; padding: 18px; border-radius: 8px; border: 1px solid #334155; margin-bottom: 24px;\">\n        <div style=\"font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; font-weight: 600; margin-bottom: 10px;\">Transaction Details</div>\n        <div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">Authorized Identity</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">icloud.investor@icloud.com</span>\n        </div><div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">Sign-in Provider</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">Apple iCloud ID</span>\n        </div><div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">Custody Status</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">Multi-Sig Active</span>\n        </div><div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">Referral Code</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">VAULT-APPL-4156</span>\n        </div>\n      </div>\n\n      <div style=\"background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.2); padding: 14px; border-radius: 6px; font-size: 12px; color: #fcd34d; margin-bottom: 24px;\">\n        Security Notice: VaultStake administrators will never request your private keys or password over chat or email.\n      </div>\n\n      <div style=\"border-top: 1px solid #1e293b; padding-top: 18px; font-size: 11px; color: #64748b; line-height: 1.5;\">\n        <div>Recipient: icloud.investor@icloud.com · Timestamp: Thu, 05 Nov 2026 10:55:43 GMT</div>\n        <div>For inquiries, contact official Telegram: @VaultStakeOfficialSupport or WhatsApp: +1 (555) 849-2910</div>\n      </div>\n    </div>\n  ",
+      "sentAt": "2026-11-05T10:55:43.820Z",
+      "status": "delivered"
+    },
+    {
+      "id": "eml_uk6o6oa",
+      "userId": "usr_474xufn",
+      "toEmail": "alartnation362@gmail.com",
+      "subject": "Welcome to VaultStake Protocol via Google",
+      "eventType": "security_alert",
+      "previewText": "Your institutional multi-chain custody vault is ready.",
+      "htmlContent": "\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #090d16; color: #f8fafc; padding: 32px 20px; border-radius: 12px; max-width: 580px; margin: 0 auto; border: 1px solid #1e293b;\">\n      <div style=\"display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #1e293b; padding-bottom: 16px; margin-bottom: 24px;\">\n        <div>\n          <span style=\"color: #f59e0b; font-weight: 800; font-size: 18px; letter-spacing: 0.05em;\">VAULTSTAKE PROTOCOL</span>\n          <div style=\"color: #64748b; font-size: 12px; margin-top: 2px;\">Automated Settlement & Security Dispatch</div>\n        </div>\n        <div style=\"font-size: 11px; background: #1e293b; color: #38bdf8; padding: 4px 10px; border-radius: 4px; font-weight: 600;\">ENCRYPTED ALERT</div>\n      </div>\n      <h2 style=\"font-size: 18px; color: #ffffff; margin: 0 0 12px;\">Welcome to VaultStake Protocol (Google SSO)</h2>\n      <p style=\"font-size: 14px; color: #cbd5e1; line-height: 1.6; margin: 0 0 20px;\">Your institutional multi-chain account has been created and verified via Google. Welcome liquidity balances have been provisioned to your address.</p>\n      \n      <div style=\"background: #0f172a; padding: 18px; border-radius: 8px; border: 1px solid #334155; margin-bottom: 24px;\">\n        <div style=\"font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; font-weight: 600; margin-bottom: 10px;\">Transaction Details</div>\n        <div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">Authorized Identity</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">alartnation362@gmail.com</span>\n        </div><div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">Sign-in Provider</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">Google Single Sign-On</span>\n        </div><div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">Custody Status</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">Multi-Sig Active</span>\n        </div><div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">Referral Code</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">VAULT-GOOG-3000</span>\n        </div>\n      </div>\n\n      <div style=\"background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.2); padding: 14px; border-radius: 6px; font-size: 12px; color: #fcd34d; margin-bottom: 24px;\">\n        Security Notice: VaultStake administrators will never request your private keys or password over chat or email.\n      </div>\n\n      <div style=\"border-top: 1px solid #1e293b; padding-top: 18px; font-size: 11px; color: #64748b; line-height: 1.5;\">\n        <div>Recipient: alartnation362@gmail.com · Timestamp: Thu, 05 Nov 2026 10:55:36 GMT</div>\n        <div>For inquiries, contact official Telegram: @VaultStakeOfficialSupport or WhatsApp: +1 (555) 849-2910</div>\n      </div>\n    </div>\n  ",
+      "sentAt": "2026-11-05T10:55:36.959Z",
+      "status": "delivered"
+    },
+    {
+      "id": "eml_vla2ckp",
+      "userId": "usr_nxn1rax",
+      "toEmail": "staker_1793820925425@protonmail.com",
+      "subject": "Welcome to VaultStake Protocol - Institutional Staking Account Created",
+      "eventType": "security_alert",
+      "previewText": "Your institutional multi-chain custody and staking vault is initialized.",
+      "htmlContent": "\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #090d16; color: #f8fafc; padding: 32px 20px; border-radius: 12px; max-width: 580px; margin: 0 auto; border: 1px solid #1e293b;\">\n      <div style=\"display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #1e293b; padding-bottom: 16px; margin-bottom: 24px;\">\n        <div>\n          <span style=\"color: #f59e0b; font-weight: 800; font-size: 18px; letter-spacing: 0.05em;\">VAULTSTAKE PROTOCOL</span>\n          <div style=\"color: #64748b; font-size: 12px; margin-top: 2px;\">Automated Settlement & Security Dispatch</div>\n        </div>\n        <div style=\"font-size: 11px; background: #1e293b; color: #38bdf8; padding: 4px 10px; border-radius: 4px; font-weight: 600;\">ENCRYPTED ALERT</div>\n      </div>\n      <h2 style=\"font-size: 18px; color: #ffffff; margin: 0 0 12px;\">Welcome to VaultStake Protocol</h2>\n      <p style=\"font-size: 14px; color: #cbd5e1; line-height: 1.6; margin: 0 0 20px;\">Your secure institutional staking account has been successfully initialized. You can now deposit cryptocurrency assets, select high-yield staking pools, and monitor continuous rewards.</p>\n      \n      <div style=\"background: #0f172a; padding: 18px; border-radius: 8px; border: 1px solid #334155; margin-bottom: 24px;\">\n        <div style=\"font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; font-weight: 600; margin-bottom: 10px;\">Transaction Details</div>\n        <div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">User Name</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">Elena Crypto</span>\n        </div><div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">Registered Email</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">staker_1793820925425@protonmail.com</span>\n        </div><div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">Account Tier</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">Institutional Standard</span>\n        </div><div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">Custody Mode</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">Multi-Signature Cold Storage</span>\n        </div>\n      </div>\n\n      <div style=\"background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.2); padding: 14px; border-radius: 6px; font-size: 12px; color: #fcd34d; margin-bottom: 24px;\">\n        Security Notice: VaultStake administrators will never request your private keys or password over chat or email.\n      </div>\n\n      <div style=\"border-top: 1px solid #1e293b; padding-top: 18px; font-size: 11px; color: #64748b; line-height: 1.5;\">\n        <div>Recipient: staker_1793820925425@protonmail.com · Timestamp: Wed, 04 Nov 2026 19:35:25 GMT</div>\n        <div>For inquiries, contact official Telegram: @VaultStakeOfficialSupport or WhatsApp: +1 (555) 849-2910</div>\n      </div>\n    </div>\n  ",
+      "sentAt": "2026-11-04T19:35:25.693Z",
+      "status": "delivered"
+    },
+    {
+      "id": "eml_w256vo0",
+      "userId": "usr_qu8awkl",
+      "toEmail": "marcus.vance@cryptofund.io",
+      "subject": "Welcome to VaultStake Protocol - Institutional Staking Account Created",
+      "eventType": "security_alert",
+      "previewText": "Your institutional multi-chain custody and staking vault is initialized.",
+      "htmlContent": "\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #090d16; color: #f8fafc; padding: 32px 20px; border-radius: 12px; max-width: 580px; margin: 0 auto; border: 1px solid #1e293b;\">\n      <div style=\"display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #1e293b; padding-bottom: 16px; margin-bottom: 24px;\">\n        <div>\n          <span style=\"color: #f59e0b; font-weight: 800; font-size: 18px; letter-spacing: 0.05em;\">VAULTSTAKE PROTOCOL</span>\n          <div style=\"color: #64748b; font-size: 12px; margin-top: 2px;\">Automated Settlement & Security Dispatch</div>\n        </div>\n        <div style=\"font-size: 11px; background: #1e293b; color: #38bdf8; padding: 4px 10px; border-radius: 4px; font-weight: 600;\">ENCRYPTED ALERT</div>\n      </div>\n      <h2 style=\"font-size: 18px; color: #ffffff; margin: 0 0 12px;\">Welcome to VaultStake Protocol</h2>\n      <p style=\"font-size: 14px; color: #cbd5e1; line-height: 1.6; margin: 0 0 20px;\">Your secure institutional staking account has been successfully initialized. You can now deposit cryptocurrency assets, select high-yield staking pools, and monitor continuous rewards.</p>\n      \n      <div style=\"background: #0f172a; padding: 18px; border-radius: 8px; border: 1px solid #334155; margin-bottom: 24px;\">\n        <div style=\"font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; font-weight: 600; margin-bottom: 10px;\">Transaction Details</div>\n        <div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">User Name</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">Marcus Vance</span>\n        </div><div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">Registered Email</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">marcus.vance@cryptofund.io</span>\n        </div><div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">Account Tier</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">Institutional Standard</span>\n        </div><div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">Custody Mode</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">Multi-Signature Cold Storage</span>\n        </div>\n      </div>\n\n      <div style=\"background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.2); padding: 14px; border-radius: 6px; font-size: 12px; color: #fcd34d; margin-bottom: 24px;\">\n        Security Notice: VaultStake administrators will never request your private keys or password over chat or email.\n      </div>\n\n      <div style=\"border-top: 1px solid #1e293b; padding-top: 18px; font-size: 11px; color: #64748b; line-height: 1.5;\">\n        <div>Recipient: marcus.vance@cryptofund.io · Timestamp: Wed, 04 Nov 2026 19:18:19 GMT</div>\n        <div>For inquiries, contact official Telegram: @VaultStakeOfficialSupport or WhatsApp: +1 (555) 849-2910</div>\n      </div>\n    </div>\n  ",
+      "sentAt": "2026-11-04T19:18:19.223Z",
+      "status": "delivered"
+    },
+    {
+      "id": "eml_bj98iy9",
+      "userId": "usr_staker_002",
+      "toEmail": "alex.morgan@crypto.org",
+      "subject": "Staking Yield Claimed: +127.444971 USDT Transferred to Wallet",
+      "eventType": "reward_claimed",
+      "previewText": "You claimed 127.444971 USDT in staking rewards.",
+      "htmlContent": "\n    <div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #090d16; color: #f8fafc; padding: 32px 20px; border-radius: 12px; max-width: 580px; margin: 0 auto; border: 1px solid #1e293b;\">\n      <div style=\"display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #1e293b; padding-bottom: 16px; margin-bottom: 24px;\">\n        <div>\n          <span style=\"color: #f59e0b; font-weight: 800; font-size: 18px; letter-spacing: 0.05em;\">VAULTSTAKE PROTOCOL</span>\n          <div style=\"color: #64748b; font-size: 12px; margin-top: 2px;\">Automated Settlement & Security Dispatch</div>\n        </div>\n        <div style=\"font-size: 11px; background: #1e293b; color: #38bdf8; padding: 4px 10px; border-radius: 4px; font-weight: 600;\">ENCRYPTED ALERT</div>\n      </div>\n      <h2 style=\"font-size: 18px; color: #ffffff; margin: 0 0 12px;\">Staking Yield Payout Dispatched</h2>\n      <p style=\"font-size: 14px; color: #cbd5e1; line-height: 1.6; margin: 0 0 20px;\">Your accumulated yield of 127.444971 USDT (~$127.44 USD) has been credited directly to your available wallet balance.</p>\n      \n      <div style=\"background: #0f172a; padding: 18px; border-radius: 8px; border: 1px solid #334155; margin-bottom: 24px;\">\n        <div style=\"font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; font-weight: 600; margin-bottom: 10px;\">Transaction Details</div>\n        <div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">Amount Claimed</span>\n          <span style=\"color: #10b981; font-weight: 500;\">+127.444971 USDT</span>\n        </div><div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">USD Equivalent</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">$127.44 USD</span>\n        </div><div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">Source Staking Pool</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">Flexible Staking</span>\n        </div><div style=\"display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px;\">\n          <span style=\"color: #94a3b8;\">Current Wallet Balance</span>\n          <span style=\"color: #f8fafc; font-weight: 500;\">4327.444971 USDT</span>\n        </div>\n      </div>\n\n      <div style=\"background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.2); padding: 14px; border-radius: 6px; font-size: 12px; color: #fcd34d; margin-bottom: 24px;\">\n        Security Notice: VaultStake administrators will never request your private keys or password over chat or email.\n      </div>\n\n      <div style=\"border-top: 1px solid #1e293b; padding-top: 18px; font-size: 11px; color: #64748b; line-height: 1.5;\">\n        <div>Recipient: alex.morgan@crypto.org · Timestamp: Tue, 03 Nov 2026 17:18:22 GMT</div>\n        <div>For inquiries, contact official Telegram: @VaultStakeOfficialSupport or WhatsApp: +1 (555) 849-2910</div>\n      </div>\n    </div>\n  ",
+      "sentAt": "2026-11-03T17:18:22.710Z",
+      "status": "delivered"
+    },
+    {
+      "id": "eml_001",
+      "userId": "usr_staker_002",
+      "toEmail": "alex.morgan@crypto.org",
+      "subject": "Deposit Confirmed: 4.7000 ETH Credited to Your Vault",
+      "eventType": "deposit_approved",
+      "previewText": "Your deposit of 4.7000 ETH has been verified and credited to your VaultStake balance.",
+      "htmlContent": "<div style=\"font-family: sans-serif; background: #090d16; color: #f1f5f9; padding: 32px; border-radius: 12px; max-width: 560px; margin: 0 auto; border: 1px solid #1e293b;\">\n        <div style=\"border-bottom: 1px solid #1e293b; padding-bottom: 16px; margin-bottom: 24px;\">\n          <h2 style=\"color: #f59e0b; margin: 0; font-size: 20px;\">VAULTSTAKE PROTOCOL</h2>\n          <p style=\"color: #94a3b8; font-size: 13px; margin: 4px 0 0;\">Automated Transaction Dispatch</p>\n        </div>\n        <p style=\"font-size: 16px; line-height: 1.5;\">Hello Alex,</p>\n        <p style=\"font-size: 14px; color: #cbd5e1; line-height: 1.6;\">Your deposit request for <strong>4.7000 ETH</strong> (~$16,358.35 USD) has been successfully verified by our institutional node cluster and credited to your available balance.</p>\n        <div style=\"background: #111827; padding: 16px; border-radius: 8px; border: 1px solid #374151; margin: 20px 0;\">\n          <div style=\"display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 13px;\">\n            <span style=\"color: #9ca3af;\">Asset:</span> <span style=\"font-weight: 600; color: #fff;\">Ethereum (ETH)</span>\n          </div>\n          <div style=\"display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 13px;\">\n            <span style=\"color: #9ca3af;\">Network:</span> <span style=\"color: #fff;\">ERC-20 Mainnet</span>\n          </div>\n          <div style=\"display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 13px;\">\n            <span style=\"color: #9ca3af;\">Status:</span> <span style=\"color: #10b981; font-weight: 600;\">Confirmed & Approved</span>\n          </div>\n          <div style=\"font-size: 12px; color: #6b7280; word-break: break-all; margin-top: 10px;\">\n            TXID: 0x8f3c7e46ab912e75e3a0994fbc266f81c919d363b516a246835a6be47228a8d1\n          </div>\n        </div>\n        <p style=\"font-size: 13px; color: #94a3b8;\">You can now allocate these assets into any of our high-yield staking pools to earn up to 26.8% APY.</p>\n        <div style=\"margin-top: 28px; border-top: 1px solid #1e293b; padding-top: 16px; font-size: 11px; color: #64748b;\">\n          VaultStake Custody Solutions · Cryptographic Proof Engine · 24/7 Security Hotline\n        </div>\n      </div>",
+      "sentAt": "2026-10-19T16:32:00.731Z",
+      "status": "delivered"
+    },
+    {
+      "id": "eml_002",
+      "userId": "usr_staker_002",
+      "toEmail": "alex.morgan@crypto.org",
+      "subject": "Staking Position Activated: 1.5000 ETH in Prime 30-Day Pool",
+      "eventType": "stake_created",
+      "previewText": "Your staking position of 1.5000 ETH is now actively compounding yield at 8.5% APY.",
+      "htmlContent": "<div style=\"font-family: sans-serif; background: #090d16; color: #f1f5f9; padding: 32px; border-radius: 12px; max-width: 560px; margin: 0 auto; border: 1px solid #1e293b;\">\n        <div style=\"border-bottom: 1px solid #1e293b; padding-bottom: 16px; margin-bottom: 24px;\">\n          <h2 style=\"color: #f59e0b; margin: 0; font-size: 20px;\">VAULTSTAKE PROTOCOL</h2>\n          <p style=\"color: #94a3b8; font-size: 13px; margin: 4px 0 0;\">Staking Contract Confirmation</p>\n        </div>\n        <p style=\"font-size: 16px; line-height: 1.5;\">Hello Alex,</p>\n        <p style=\"font-size: 14px; color: #cbd5e1; line-height: 1.6;\">You have successfully locked <strong>1.5000 ETH</strong> into the <strong>Prime 30-Day</strong> staking pool at <strong>8.5% APY</strong>.</p>\n        <div style=\"background: #111827; padding: 16px; border-radius: 8px; border: 1px solid #374151; margin: 20px 0;\">\n          <div style=\"margin-bottom: 8px; font-size: 13px;\"><span style=\"color: #9ca3af;\">Annual Percentage Yield:</span> <strong style=\"color: #10b981;\">8.50% APY</strong></div>\n          <div style=\"margin-bottom: 8px; font-size: 13px;\"><span style=\"color: #9ca3af;\">Estimated Period Yield:</span> <strong style=\"color: #f59e0b;\">+0.0104 ETH</strong></div>\n          <div style=\"font-size: 13px;\"><span style=\"color: #9ca3af;\">Maturity Date:</span> <span style=\"color: #fff;\">In 16 days</span></div>\n        </div>\n        <p style=\"font-size: 13px; color: #94a3b8;\">Rewards accrue continuously and can be monitored live from your Staking Dashboard.</p>\n      </div>",
+      "sentAt": "2026-10-20T16:32:00.731Z",
+      "status": "delivered"
+    }
+  ],
+  "supportTickets": [],
+  "systemSettings": {
+    "whatsappNumber": "+1 (555) 849-2910",
+    "whatsappUrl": "https://wa.me/15558492910?text=Hello%20VaultStake%20Support,%20I%20need%20assistance%20with%20my%20account",
+    "telegramHandle": "@VaultStakeOfficialSupport",
+    "telegramUrl": "https://t.me/VaultStakeOfficialSupport",
+    "supportGreeting": "Welcome to VaultStake 24/7 Institutional Support. Our specialists are available on WhatsApp and Telegram with under 5-minute response times.",
+    "allowNewRegistrations": true,
+    "maintenanceMode": false,
+    "headquartersAddress": "One World Trade Center, 285 Fulton Street, Suite 7800, New York, NY 10007, United States",
+    "entityLegalName": "VaultStake Institutional Technologies Inc. (New York, USA)"
+  }
+}
